@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:recipe_app/models/recipe_model.dart'; // Criaremos este
-import 'package:recipe_app/models/user_model.dart'; // Criaremos este
+import 'package:recipe_app/models/recipe_model.dart';
+import 'package:recipe_app/models/user_model.dart';
 
 class DatabaseHelper {
   static final DatabaseHelper _instance = DatabaseHelper._internal();
